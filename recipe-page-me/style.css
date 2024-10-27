@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: outfit;
+    src: url(fonts/outfit/Outfit-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: young;
+    src: url(fonts/young-serif/YoungSerif-Regular.ttf);
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 1440px;
+    margin: 0;
+    border: 1px solid blue;
+}
+
+hr {
+    width: 100px;
+    text-align: center;
+}
+
+main {
+    border-radius: 1rem;
+
+    width: 46rem;
+    margin-top: 7.375rem;
+    background-color: white;
+    justify-content: center;
+}
+
+img {
+    width: 40.875rem;
+    margin-top: 2.40625rem;
+    border-radius: 1rem;
+    margin-bottom: 2.10rem;
+    height: 18.525rem;
+}
+
+h1 {
+    font-family: young;
+    margin-top: 0;
+    font-weight: 400;
+    color: hsl(24, 5%, 18%);
+    text-align: start;
+    margin-left: 2.45rem;
+    font-size: 40px;
+    margin-bottom: 1.30rem;
+    padding: 0;
+}
+
+p {
+    margin-left: 2.45rem;
+    font-family: outfit;
+    text-align: start;
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+    margin-bottom: 1.30rem;
+}
+
+.left {
+    border: 1px solid red;
+    display: inline-block;
+}
+
+.right {
+    border: 1px solid red;
+    display: inline-block;
+}
+
+section {
+    background-color: hsl(330, 100%, 98%);
+    width: 40.875rem;
+    align-items: center;
+    display: flex;
+
+}
