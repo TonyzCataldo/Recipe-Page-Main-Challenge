@@ -13,75 +13,200 @@
     src: url(fonts/young-serif/YoungSerif-Regular.ttf);
 }
 
+
+
 body {
     background-color: hsl(30, 54%, 90%);
     text-align: center;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    width: 1440px;
+
+
+
+
     margin: 0;
-    border: 1px solid blue;
 }
 
-hr {
-    width: 100px;
-    text-align: center;
-}
 
 main {
     border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 7.5rem;
+    height: 106.75rem;
+    margin-bottom: 7.5rem;
+
 
     width: 46rem;
-    margin-top: 7.375rem;
+
     background-color: white;
-    justify-content: center;
+
 }
 
 img {
-    width: 40.875rem;
-    margin-top: 2.40625rem;
+    width: 41rem;
+    margin-top: 2.5rem;
     border-radius: 1rem;
-    margin-bottom: 2.10rem;
+    margin-bottom: 1.6525rem;
     height: 18.525rem;
 }
 
 h1 {
     font-family: young;
+
     margin-top: 0;
     font-weight: 400;
     color: hsl(24, 5%, 18%);
     text-align: start;
-    margin-left: 2.45rem;
-    font-size: 40px;
-    margin-bottom: 1.30rem;
+    margin-left: 2.50rem;
+    font-size: 2.5rem;
+    margin-bottom: 0.865rem;
     padding: 0;
 }
 
 p {
-    margin-left: 2.45rem;
+    margin-left: 2.50rem;
     font-family: outfit;
     text-align: start;
     color: hsl(30, 10%, 34%);
-    font-size: 16px;
-    margin-bottom: 1.30rem;
+    font-size: 1rem;
+    margin-bottom: 2.0rem;
+    line-height: 1.4375rem;
 }
 
-.left {
-    border: 1px solid red;
-    display: inline-block;
-}
-
-.right {
-    border: 1px solid red;
-    display: inline-block;
-}
 
 section {
     background-color: hsl(330, 100%, 98%);
     width: 40.875rem;
-    align-items: center;
+    height: 11.1875rem;
     display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+    position: relative;
+
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+
+}
+
+section p {
+    display: flex;
+    color: hsl(332, 51%, 32%);
+    font-size: 1.22rem;
+    margin-top: 1.375rem;
+    position: relative;
+    right: 0.7rem;
+    font-family: outfit;
+    font-weight: 600;
+    margin-bottom: 0.85rem;
+}
+
+
+
+section li {
+    color: hsl(30, 10%, 34%);
+    margin-top: 0.0625rem;
+    margin-left: 0.8rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: start;
+    padding-left: 0.93rem;
+    margin-bottom: 0.9rem;
+    font-family: outfit;
+    font-weight: 400;
+}
+
+section li::marker {
+    color: hsl(332, 51%, 32%);
+
+}
+
+.strong {
+    font-weight: 700;
+}
+
+h2 {
+    margin-top: 1.75rem;
+    font-family: young;
+    font-weight: 400;
+    font-size: 1.76rem;
+    color: hsl(14, 45%, 36%);
+    text-align: start;
+    margin-left: 2.50rem;
+    margin-bottom: 1.3rem;
+
+}
+
+li {
+    color: hsl(30, 10%, 34%);
+    margin-left: 1.52rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: start;
+    padding-left: 0.93rem;
+    margin-bottom: 0.9rem;
+    font-family: outfit;
+    font-weight: 400;
+}
+
+li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: 600;
+
+}
+
+.hr {
+
+    width: 41rem;
+    margin-left: 2.5rem;
+    display: block;
+    border: 0;
+    border-top: 1px solid rgb(224, 224, 224);
+    padding: 0;
+    margin-top: 1.164rem;
+
+
+}
+
+.full-end {
+    margin-top: -0.625rem;
+}
+
+.left {
+    display: inline-block;
+    width: 18.75rem;
+    position: relative;
+    text-align: start;
+    font-family: outfit;
+    color: hsl(30, 10%, 34%);
+    font-size: 1rem;
+
+}
+
+.right {
+    display: inline-block;
+    width: 18.75rem;
+    position: relative;
+    text-align: start;
+    font-family: outfit;
+    color: hsl(14, 45%, 36%);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.hr2 {
+    margin-left: 4.62rem;
+    border: 0;
+    border-top: 1px solid rgb(224, 224, 224);
+    padding: 0;
+    width: 22rem;
+    position: relative;
+    right: 100px;
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
 
 }
