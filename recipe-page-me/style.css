@@ -299,7 +299,7 @@ li::marker {
     }
 
     .hr2 {
-        width: 90%;
+        width: 98%;
     }
 
     li {
@@ -318,5 +318,16 @@ li::marker {
     .footer-p {
         margin-right: 15%;
 
+    }
+
+    .full-end {
+        display: flex;
+        flex-direction: row;
+        margin-left: 15%;
+
+    }
+
+    .right {
+        margin-left: -26%;
     }
 }
